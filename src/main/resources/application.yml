@@ -1,0 +1,15 @@
+server:
+  port: 8059
+
+spring:
+  data:
+    mongodb:
+      database: animedb
+      host: localhost
+      port: 27017
+      uri: mongodb://localhost:27017/animedb
+
+animeapi:
+  app:
+    jwtSecret: secret
+    jwtExpirationMs: 86400000
